@@ -2,10 +2,10 @@
   "_args": [
     [
       {
-        "raw": "live2d-widget-model-haruto",
+        "raw": "live2d-widget-model-hibiki",
         "scope": null,
-        "escapedName": "live2d-widget-model-haruto",
-        "name": "live2d-widget-model-haruto",
+        "escapedName": "live2d-widget-model-hibiki",
+        "name": "live2d-widget-model-hibiki",
         "rawSpec": "",
         "spec": "latest",
         "type": "tag"
@@ -13,14 +13,14 @@
       "C:\\Users\\songchao\\Desktop\\my_blog"
     ]
   ],
-  "_from": "live2d-widget-model-haruto@latest",
-  "_id": "live2d-widget-model-haruto@1.0.5",
+  "_from": "live2d-widget-model-hibiki@latest",
+  "_id": "live2d-widget-model-hibiki@1.0.5",
   "_inCache": true,
-  "_location": "/live2d-widget-model-haruto",
+  "_location": "/live2d-widget-model-hibiki",
   "_nodeVersion": "8.4.0",
   "_npmOperationalInternal": {
     "host": "s3://npm-registry-packages",
-    "tmp": "tmp/live2d-widget-model-haruto_1.0.5_1518094142850_0.09191494933027466"
+    "tmp": "tmp/live2d-widget-model-hibiki_1.0.5_1518094156963_0.4739952112925676"
   },
   "_npmUser": {
     "name": "xiazeyu",
@@ -29,35 +29,36 @@
   "_npmVersion": "5.5.1",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "live2d-widget-model-haruto",
+    "raw": "live2d-widget-model-hibiki",
     "scope": null,
-    "escapedName": "live2d-widget-model-haruto",
-    "name": "live2d-widget-model-haruto",
+    "escapedName": "live2d-widget-model-hibiki",
+    "name": "live2d-widget-model-hibiki",
     "rawSpec": "",
     "spec": "latest",
     "type": "tag"
   },
   "_requiredBy": [
-    "#USER"
+    "#USER",
+    "/"
   ],
-  "_resolved": "https://registry.npmjs.org/live2d-widget-model-haruto/-/live2d-widget-model-haruto-1.0.5.tgz",
-  "_shasum": "0a6ae6a93393008246e3f6a30b5b14bb77d2ee55",
+  "_resolved": "https://registry.npmjs.org/live2d-widget-model-hibiki/-/live2d-widget-model-hibiki-1.0.5.tgz",
+  "_shasum": "0ef1d99b43d279fb9531bccaa9acc12dd5069ff5",
   "_shrinkwrap": null,
-  "_spec": "live2d-widget-model-haruto",
+  "_spec": "live2d-widget-model-hibiki",
   "_where": "C:\\Users\\songchao\\Desktop\\my_blog",
   "bugs": {
     "url": "https://github.com/xiazeyu/live2d-widget-models/issues"
   },
   "dependencies": {},
-  "description": "haruto live2d model for live2d-widget.js",
+  "description": "hibiki live2d model for live2d-widget.js",
   "devDependencies": {},
   "directories": {},
   "dist": {
-    "integrity": "sha512-zoD6F1c/ryPBV9zQiOj+zRZTYbELNivrK8lM2Sr4DKp/kCzDB+RjJuHjqXEVEMtRc8Q23zKkfrlGyC1OQOFP7g==",
-    "shasum": "0a6ae6a93393008246e3f6a30b5b14bb77d2ee55",
-    "tarball": "https://registry.npmjs.org/live2d-widget-model-haruto/-/live2d-widget-model-haruto-1.0.5.tgz",
-    "fileCount": 15,
-    "unpackedSize": 553328
+    "integrity": "sha512-MPtmSb0WFRz+gaOAhOyz5xbrpX9wO5utuhqEQwx7rRXIYo/YmQcjLSnMVXWC6tQ7tBQPkAKeQ55RunlnNM3b2A==",
+    "shasum": "0ef1d99b43d279fb9531bccaa9acc12dd5069ff5",
+    "tarball": "https://registry.npmjs.org/live2d-widget-model-hibiki/-/live2d-widget-model-hibiki-1.0.5.tgz",
+    "fileCount": 25,
+    "unpackedSize": 725082
   },
   "homepage": "https://github.com/xiazeyu/live2d-widget-models#readme",
   "license": "GPL-2.0",
@@ -71,7 +72,7 @@
       "email": "xiazeyu_2011@126.com"
     }
   ],
-  "name": "live2d-widget-model-haruto",
+  "name": "live2d-widget-model-hibiki",
   "optionalDependencies": {},
   "readme": "ERROR: No README data found!",
   "repository": {
