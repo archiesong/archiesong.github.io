@@ -7,13 +7,17 @@
 
     
 
-    <title>归档：2018 | 宋超的技术博客 archieSong blog</title>
+    <title>利用HEXO和gitHub搭建自己的博客 | 宋超的技术博客 archieSong blog</title>
     <meta name="author" content="Trent song">
+    
+    <meta name="description" content="前言很早有想用hexo和GitHub搭建一个属于自己的静态博客,一直都没时间弄,这几天突然想到了,于是就百度搜索了教程下自己搭建了一个来玩玩看。
+正文
+安装nodeJS以Windows环境安装node.js为例,首先登录node.js选择适合自己的版本进行下载，然后进行安装一路next安装很快就结束">
     
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    
+    <meta property="og:title" content="利用HEXO和gitHub搭建自己的博客"/>
     <meta property="og:site_name" content="archieSong blog"/>
 
     
@@ -183,46 +187,143 @@
 
     <main>
         <div class="container main-container">
-    
-
-<nav class="page-nav hide-on-small-only">
+    <nav class="page-nav hide-on-small-only">
     <div class="nav-wrapper light-blue">
-        <span class="breadcrumb">当前位置（归档）</span>
+        <span class="breadcrumb">当前位置（分类目录）</span>
+        
+            
+    
+    
+    <a class="breadcrumb" href="/categories/其他/">其他</a>
+
+
         
 
         
     </div>
 </nav>
 
+<article>
+    <div class="card">
+        <div class="card-content">
+            
+
+            <div class="article-title">
+                
+    
+        <h1>利用HEXO和gitHub搭建自己的博客</h1>
+    
 
 
-    <ul class="collapsible mt-0" data-collapsible="accordion">
+            </div>
+            <time class="pink-link-context" datetime="2018-05-17T14:08:05.000Z"><a href="/2018/05/17/HEXO搭建博客/">2018-05-17</a></time>
+
+            <span id="busuanzi_container_page_pv" class="read-times-container">
+    <i class="fa fa-eye"></i>
+    <span id="busuanzi_value_page_pv"></span>
+</span>
+
+            
+    <div class="tags-row">
         
+            <a href="/tags/GitHub/" class="chip pink lighten-1">GitHub</a>
         
-            <li>
-                <div class="collapsible-header active">
-                    <i class="fa fa-archive"></i>2018
-                </div>
-                <div class="collapsible-body">
-                    <div class="collection">
-                        
-                            <a href="/2018/05/17/HEXO搭建博客/" class="collection-item grey-text text-darken-1">
-                                <time datetime="2018-05-17T14:08:05.000Z">2018-05-17</time>
-                                <span>&nbsp;&nbsp;&nbsp;</span>
-                                利用HEXO和gitHub搭建自己的博客
-                            </a>
-                        
-                            <a href="/2018/05/15/hello-world/" class="collection-item grey-text text-darken-1">
-                                <time datetime="2018-05-15T09:14:43.565Z">2018-05-15</time>
-                                <span>&nbsp;&nbsp;&nbsp;</span>
-                                Hello World
-                            </a>
-                        
-                    </div>
-                </div>
-            </li>
+            <a href="/tags/NodeJS/" class="chip pink lighten-1">NodeJS</a>
         
-    </ul>
+            <a href="/tags/Hexo/" class="chip pink lighten-1">Hexo</a>
+        
+            <a href="/tags/Git/" class="chip pink lighten-1">Git</a>
+        
+    </div>
+
+
+            <div class="toc pink-link-context hide-on-med-and-down">
+    <ol class="section table-of-contents"><li class="section table-of-contents-item section table-of-contents-level-1"><a class="section table-of-contents-link" href="#前言"><span class="section table-of-contents-text">前言</span></a></li><li class="section table-of-contents-item section table-of-contents-level-1"><a class="section table-of-contents-link" href="#正文"><span class="section table-of-contents-text">正文</span></a><ol class="section table-of-contents-child"><li class="section table-of-contents-item section table-of-contents-level-3"><a class="section table-of-contents-link" href="#安装nodeJS"><span class="section table-of-contents-text">安装nodeJS</span></a></li><li class="section table-of-contents-item section table-of-contents-level-3"><a class="section table-of-contents-link" href="#安装git客户端"><span class="section table-of-contents-text">安装git客户端</span></a></li><li class="section table-of-contents-item section table-of-contents-level-3"><a class="section table-of-contents-link" href="#安装及初始化Hexo"><span class="section table-of-contents-text">安装及初始化Hexo</span></a><ol class="section table-of-contents-child"><li class="section table-of-contents-item section table-of-contents-level-4"><a class="section table-of-contents-link" href="#hexo安装"><span class="section table-of-contents-text">hexo安装</span></a></li><li class="section table-of-contents-item section table-of-contents-level-4"><a class="section table-of-contents-link" href="#hexo初始化"><span class="section table-of-contents-text">hexo初始化</span></a></li></ol></li><li class="section table-of-contents-item section table-of-contents-level-3"><a class="section table-of-contents-link" href="#首次体检Hexo"><span class="section table-of-contents-text">首次体检Hexo</span></a></li><li class="section table-of-contents-item section table-of-contents-level-3"><a class="section table-of-contents-link" href="#修改更换Hexo默认主题"><span class="section table-of-contents-text">修改更换Hexo默认主题</span></a><ol class="section table-of-contents-child"><li class="section table-of-contents-item section table-of-contents-level-4"><a class="section table-of-contents-link" href="#下载安装next主题"><span class="section table-of-contents-text">下载安装next主题</span></a></li><li class="section table-of-contents-item section table-of-contents-level-4"><a class="section table-of-contents-link" href="#主题的配置"><span class="section table-of-contents-text">主题的配置</span></a></li></ol></li><li class="section table-of-contents-item section table-of-contents-level-3"><a class="section table-of-contents-link" href="#注册gitHub及开启GitHub-Pages服务"><span class="section table-of-contents-text">注册gitHub及开启GitHub Pages服务</span></a><ol class="section table-of-contents-child"><li class="section table-of-contents-item section table-of-contents-level-4"><a class="section table-of-contents-link" href="#注册github"><span class="section table-of-contents-text">注册github</span></a></li><li class="section table-of-contents-item section table-of-contents-level-4"><a class="section table-of-contents-link" href="#开启GitHub-Pages服务"><span class="section table-of-contents-text">开启GitHub Pages服务</span></a></li></ol></li></ol></li></ol></li></ol>
+</div>
+
+
+            <div class="entry pink-link-context">
+                <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>很早有想用<a href="https://hexo.io/" target="_blank" rel="noopener">hexo</a>和<a href="http://github.com" target="_blank" rel="noopener">GitHub</a>搭建一个属于自己的静态<a href="https://archiesong.github.io/" target="_blank" rel="noopener">博客</a>,一直都没时间弄,这几天突然想到了,于是就百度搜索了教程下自己搭建了一个来玩玩看。</p>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><hr>
+<h3 id="安装nodeJS"><a href="#安装nodeJS" class="headerlink" title="安装nodeJS"></a>安装nodeJS</h3><p>以Windows环境安装node.js为例,首先登录<a href="http://nodejs.org/en/" target="_blank" rel="noopener">node.js</a>选择适合自己的版本进行下载，然后进行安装一路<strong>next</strong>安装很快就结束了。<br><img src="http://ow1ymsuj2.bkt.clouddn.com/9fe4afa0gw1faljmdsfd9j20dv0atq4u.jpg" alt=""></p>
+<p>然后我们检查一下是不是要求的组件都安装好了,同时按下键盘上win键加上R键打开运行窗口</p>
+<p><img src="http://ow1ymsuj2.bkt.clouddn.com/9fe4afa0gw1faljikc6nbj20bh06l3z7.jpg" alt=""><br>打开命令行窗口输入一下命令查看node版本号和npm版本号。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node -v  // 查看node版本</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm -v  // 查看npm版本</span><br></pre></td></tr></table></figure>
+<p>如果结果如下图所示,则说明安装正确,可以进行下一步了,如果不正确,则需要回头检查自己的安装过程。<br><img src="http://ow1ymsuj2.bkt.clouddn.com/9fe4afa0gw1faljiuibwdj20it0cb3zd.jpg" alt=""></p>
+<h3 id="安装git客户端"><a href="#安装git客户端" class="headerlink" title="安装git客户端"></a>安装git客户端</h3><p>登录<a href="https://git-scm.com/" target="_blank" rel="noopener">git官网下载地址</a>选择版本进行下载。基本一路<strong><em>next</em></strong>下去即可轻松完成安装。<br><img src="http://ow1ymsuj2.bkt.clouddn.com/9fe4afa0gw1fampzoik7ej20e70b1q5o.jpg" alt=""></p>
+<p><strong><em> 注意 </em></strong></p>
+<p>安装过程中,注意勾选<em>在右键菜单建立git bash快捷方式</em>一项,以为之后的各种操作都需要在git bash 中用命令行进行操作,方便随时随地打开命令窗口,安装成功后，鼠标右击选择 <code>Git Bash Here</code> 打开<code>Git</code>命令行窗口。<br><img src="http://ow1ymsuj2.bkt.clouddn.com/hexo1.jpg" alt=""></p>
+<p>打开git bash命令行后输入以下命令查看Git是否安装正确。<br><img src="http://ow1ymsuj2.bkt.clouddn.com/bash.jpg" alt=""></p>
+<h3 id="安装及初始化Hexo"><a href="#安装及初始化Hexo" class="headerlink" title="安装及初始化Hexo"></a>安装及初始化Hexo</h3><h4 id="hexo安装"><a href="#hexo安装" class="headerlink" title="hexo安装"></a>hexo安装</h4><p>在自己认为合适的地方创建一个文件夹，这里我以E盘为例子讲解,首先在E盘目录下创建一个hexo文件夹,并在命令行的窗口进入到该目录</p>
+<p><img src="http://ow1ymsuj2.bkt.clouddn.com/9fe4afa0gw1falkb6ao3oj2064032a9x.jpg" alt=""></p>
+<p>在命令行中输入以下命令:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g  //全局安装hexo</span><br></pre></td></tr></table></figure>
+<p>然后你将会看到</p>
+<p><img src="http://ow1ymsuj2.bkt.clouddn.com/9fe4afa0gw1falkcr5z7kj20ce074aav.jpg" alt=""></p>
+<p>可能你会看到一个WARN,但是不用担心,这不会影响你的正常使用。然后输入以下命令:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo --save</span><br></pre></td></tr></table></figure>
+<p>然后你会看到命令行窗口刷一大堆白字，下面我们看一看Hexo是不是已经安装好了。在命令行中输入以下命令:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -v  //查看hexo版本</span><br></pre></td></tr></table></figure>
+<p>如何你看到了如图文字,则说明已经安装成功了。</p>
+<p><img src="http://ow1ymsuj2.bkt.clouddn.com/9fe4afa0gw1falkf052h7j205r06f0su.jpg" alt=""></p>
+<h4 id="hexo初始化"><a href="#hexo初始化" class="headerlink" title="hexo初始化"></a>hexo初始化</h4><p>接着上面的操作，输入以下命令:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+<p>然后输入:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm  install</span><br></pre></td></tr></table></figure>
+<p>之后npm将会自动安装你需要的组件,只需要等待npm操作即可。</p>
+<h3 id="首次体检Hexo"><a href="#首次体检Hexo" class="headerlink" title="首次体检Hexo"></a>首次体检Hexo</h3><p>继续操作,同样是在命令行中,输入:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+<p><img src="http://ow1ymsuj2.bkt.clouddn.com/9fe4afa0gw1falkiaws1xj208p045t9j.jpg" alt=""></p>
+<p>然后输入:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g  //g是generetor的缩写，生成博客</span><br><span class="line">hexo s  //s是server的缩写，启动服务</span><br></pre></td></tr></table></figure>
+<p>然后会提示:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">INFO Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure>
+<p>在浏览器中打开<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a>,你将会看到:</p>
+<p> <img src="http://ow1ymsuj2.bkt.clouddn.com/9fe4afa0gw1falkk5mnsvj211y0lcten.jpg" alt=""></p>
+<h3 id="修改更换Hexo默认主题"><a href="#修改更换Hexo默认主题" class="headerlink" title="修改更换Hexo默认主题"></a>修改更换Hexo默认主题</h3><h4 id="下载安装next主题"><a href="#下载安装next主题" class="headerlink" title="下载安装next主题"></a>下载安装next主题</h4><p>假如你觉得Hexo默认主题不好看，我们可以自己重新定义主题,我们可以上<a href="https://hexo.io/themes/" target="_blank" rel="noopener">hexo官网</a>来选择下载自己喜欢的主题。</p>
+<p>打开 git bash命令行窗口,然后输入我们博客在本地的存放的位置,定位到我们博客的位置，比方说我的博客在F盘的blog文件里我就需要输入<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> f:/blog</span><br></pre></td></tr></table></figure></p>
+<p>同理，请你 <code>cd 你的博客位置</code>。</p>
+<p><strong><em> 注意: cd和盘符之间有空格哦！</em></strong><br>然后我们先下载自己需要的主题，我这里就以<code>next</code>主题为例，在 <code>git</code>中继续输入以下命令来下载<code>next</code>主题。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
+<p>敲下回车。git就会自动帮你从<code>github</code>中克隆最新的<code>next</code>主题到你的博客文件夹里面</p>
+<p><img src="http://ow1ymsuj2.bkt.clouddn.com/3936403-0bf2b98a258c7f1d.png" alt=""></p>
+<p>克隆完成之后,打开你的本地的博客文件夹就可以看到刚刚下载完成的<code>next</code>主题和默认的<code>landscape</code>主题。</p>
+<p><img src="http://ow1ymsuj2.bkt.clouddn.com/3936403-e591ff9b4bb23a59.png" alt=""></p>
+<h4 id="主题的配置"><a href="#主题的配置" class="headerlink" title="主题的配置"></a>主题的配置</h4><p>首先我们要修改博客的配置文件(<strong><em> 注意: </em></strong>是整个博客的配置文件，也就是博客最底层目录下的<code>_config.yml</code>因为之后还会用到，所以我们在此约定一下，将这个配置文件叫做站点配置文件，这是从next的官方文档里学来的名称),找到<code>theme</code>选项,把主题切换为<code>next</code>,(<strong><em> 注意：theme右边冒号<code>:</code> 之后又空格</em></strong>)如下图:</p>
+<p><img src="http://ow1ymsuj2.bkt.clouddn.com/3936403-67acb29b08743485.png" alt=""></p>
+<p>完成之后主题就可以用啦。</p>
+<h3 id="注册gitHub及开启GitHub-Pages服务"><a href="#注册gitHub及开启GitHub-Pages服务" class="headerlink" title="注册gitHub及开启GitHub Pages服务"></a>注册gitHub及开启GitHub Pages服务</h3><h4 id="注册github"><a href="#注册github" class="headerlink" title="注册github"></a>注册github</h4><p> gitHub是一个面向开源及私有软件项目的托管平台，因为只支持git 作为唯一的版本库格式进行托管，故名gitHub。这里用到Github，是因为我们需要通过Github得到自己的博客网站域名，而且需要使用gitHub同步我们个人博客的相关文件。 </p>
+<p> 注册地址：<a href="https://github.com" target="_blank" rel="noopener">https://github.com</a><br> 注册流程: <a href="https://www.baidu.com" target="_blank" rel="noopener">https://www.baidu.com</a> 百度一下，你就知道了。</p>
+<h4 id="开启GitHub-Pages服务"><a href="#开启GitHub-Pages服务" class="headerlink" title="开启GitHub Pages服务"></a>开启GitHub Pages服务</h4><p>搭建我们的个人博客需要一个唯一的域名，当然我们可以申请购买一个域名来使用，但是在不是太必要的情况下，我们也可以通过Github Pages获得一个免费使用的域名，这需要我们在Github上新建一个仓库，如下：</p>
+<p><img src="http://ow1ymsuj2.bkt.clouddn.com/1244124-7ab2930306e23157.png" alt=""></p>
+<p>这个过程和建立普通的仓库没什么区别，关键在于新仓库的名字，一定要是UserName+”github.io”的形式。这也是之前强调的要起一个好的用户名的原因。这样之后我们最后的博客网站的链接就会是：<a href="https://archiesong.github.io/" target="_blank" rel="noopener">https://UserName.github.io</a>的形式。<br>注意：固定新仓库的名字格式并非必须，只是这样操作生成的博客域名比较短小简洁，另起他名生成博客域名会很冗长。</p>
+<p>点击Create Repository之后，随后选择Setting进入设置，找到Github Pages如下：</p>
+<p><img src="http://ow1ymsuj2.bkt.clouddn.com/1244124-5e0f79282ae8140c.png" alt=""></p>
+<p>这里我们需要点击Choose a theme任意选择一个选择主题，然后界面会跳转到仓库，我们看到有两个文件如下：</p>
+<p><img src="http://ow1ymsuj2.bkt.clouddn.com/1244124-75e5fceb23b7b85a.png" alt=""></p>
+<p>此时若再查看setting，我们会看到开启GitHub Pages之后得到的域名如下：</p>
+<p><img src="http://ow1ymsuj2.bkt.clouddn.com/1244124-685aeb93cbe41235.png" alt=""></p>
+
+                
+
+
+<p class="pink-link-context">
+    <a href="/2018/05/15/hello-world/" rel="next" title="Hello World">
+    下一篇：Hello World
+  </a>
+</p>
+
+
+            </div>
+			
+        </div>
+    </div>
+</article>
+
+
+
+
 
 
 </div>

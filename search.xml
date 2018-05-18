@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[利用HEXO和gitHub搭建自己的博客]]></title>
+    <url>%2F2018%2F05%2F17%2FHEXO%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%2F</url>
+    <content type="text"><![CDATA[前言很早有想用hexo和GitHub搭建一个属于自己的静态博客,一直都没时间弄,这几天突然想到了,于是就百度搜索了教程下自己搭建了一个来玩玩看。 正文 安装nodeJS以Windows环境安装node.js为例,首先登录node.js选择适合自己的版本进行下载，然后进行安装一路next安装很快就结束了。 然后我们检查一下是不是要求的组件都安装好了,同时按下键盘上win键加上R键打开运行窗口 打开命令行窗口输入一下命令查看node版本号和npm版本号。 1node -v // 查看node版本 1npm -v // 查看npm版本 如果结果如下图所示,则说明安装正确,可以进行下一步了,如果不正确,则需要回头检查自己的安装过程。 安装git客户端登录git官网下载地址选择版本进行下载。基本一路next下去即可轻松完成安装。 注意 安装过程中,注意勾选在右键菜单建立git bash快捷方式一项,以为之后的各种操作都需要在git bash 中用命令行进行操作,方便随时随地打开命令窗口,安装成功后，鼠标右击选择 Git Bash Here 打开Git命令行窗口。 打开git bash命令行后输入以下命令查看Git是否安装正确。 安装及初始化Hexohexo安装在自己认为合适的地方创建一个文件夹，这里我以E盘为例子讲解,首先在E盘目录下创建一个hexo文件夹,并在命令行的窗口进入到该目录 在命令行中输入以下命令: 1npm install hexo-cli -g //全局安装hexo 然后你将会看到 可能你会看到一个WARN,但是不用担心,这不会影响你的正常使用。然后输入以下命令: 1npm install hexo --save 然后你会看到命令行窗口刷一大堆白字，下面我们看一看Hexo是不是已经安装好了。在命令行中输入以下命令: 1hexo -v //查看hexo版本 如何你看到了如图文字,则说明已经安装成功了。 hexo初始化接着上面的操作，输入以下命令: 1hexo init 然后输入: 1npm install 之后npm将会自动安装你需要的组件,只需要等待npm操作即可。 首次体检Hexo继续操作,同样是在命令行中,输入: 1hexo g 然后输入: 12hexo g //g是generetor的缩写，生成博客hexo s //s是server的缩写，启动服务 然后会提示: 1INFO Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop. 在浏览器中打开http://localhost:4000/,你将会看到: 修改更换Hexo默认主题下载安装next主题假如你觉得Hexo默认主题不好看，我们可以自己重新定义主题,我们可以上hexo官网来选择下载自己喜欢的主题。 打开 git bash命令行窗口,然后输入我们博客在本地的存放的位置,定位到我们博客的位置，比方说我的博客在F盘的blog文件里我就需要输入1cd f:/blog 同理，请你 cd 你的博客位置。 注意: cd和盘符之间有空格哦！然后我们先下载自己需要的主题，我这里就以next主题为例，在 git中继续输入以下命令来下载next主题。 1git clone https://github.com/iissnan/hexo-theme-next themes/next 敲下回车。git就会自动帮你从github中克隆最新的next主题到你的博客文件夹里面 克隆完成之后,打开你的本地的博客文件夹就可以看到刚刚下载完成的next主题和默认的landscape主题。 主题的配置首先我们要修改博客的配置文件( 注意: 是整个博客的配置文件，也就是博客最底层目录下的_config.yml因为之后还会用到，所以我们在此约定一下，将这个配置文件叫做站点配置文件，这是从next的官方文档里学来的名称),找到theme选项,把主题切换为next,( 注意：theme右边冒号: 之后又空格)如下图: 完成之后主题就可以用啦。 注册gitHub及开启GitHub Pages服务注册github gitHub是一个面向开源及私有软件项目的托管平台，因为只支持git 作为唯一的版本库格式进行托管，故名gitHub。这里用到Github，是因为我们需要通过Github得到自己的博客网站域名，而且需要使用gitHub同步我们个人博客的相关文件。 注册地址：https://github.com 注册流程: https://www.baidu.com 百度一下，你就知道了。 开启GitHub Pages服务搭建我们的个人博客需要一个唯一的域名，当然我们可以申请购买一个域名来使用，但是在不是太必要的情况下，我们也可以通过Github Pages获得一个免费使用的域名，这需要我们在Github上新建一个仓库，如下： 这个过程和建立普通的仓库没什么区别，关键在于新仓库的名字，一定要是UserName+”github.io”的形式。这也是之前强调的要起一个好的用户名的原因。这样之后我们最后的博客网站的链接就会是：https://UserName.github.io的形式。注意：固定新仓库的名字格式并非必须，只是这样操作生成的博客域名比较短小简洁，另起他名生成博客域名会很冗长。 点击Create Repository之后，随后选择Setting进入设置，找到Github Pages如下： 这里我们需要点击Choose a theme任意选择一个选择主题，然后界面会跳转到仓库，我们看到有两个文件如下： 此时若再查看setting，我们会看到开启GitHub Pages之后得到的域名如下：]]></content>
+      <categories>
+        <category>其他</category>
+      </categories>
+      <tags>
+        <tag>GitHub</tag>
+        <tag>NodeJS</tag>
+        <tag>Hexo</tag>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2018%2F05%2F15%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
